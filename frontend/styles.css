@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Chat container styles */
+#chat-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box styles */
+#chat-box {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+/* Input container styles */
+#input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    align-self: flex-end;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message styles */
+#chat-box .message {
+    margin-bottom: 10px;
+}
+
+#chat-box .sent {
+    text-align: right;
+    color: #007bff;
+}
+
+#chat-box .received {
+    text-align: left;
+    color: #333;
+}
